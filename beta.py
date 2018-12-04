@@ -433,4 +433,4 @@ async def on_message(message):
     if message.content.lower().startswith('c!test'):
         await client.send_message(message.author, "Olá Mundo, estou vivo!")                      
 
-client.run("NTEyNjc0MjQxOTUxNDMyNzA0.DugCNQ._cn06Ybo68L_Is5BYzD9mo71Ebo")
+client.run("token")
